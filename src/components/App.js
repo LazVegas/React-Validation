@@ -1,11 +1,10 @@
 import React from "react"
+import Form from './Form'
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  )
-}
+    <Form />
+  );
+};
 
 export default App
